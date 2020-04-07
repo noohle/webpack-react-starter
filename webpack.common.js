@@ -30,7 +30,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "Material-UI demos",
+      title: "webpack react starter",
       filename: "index.html",
       template: "./src/index.html",
     }),

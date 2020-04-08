@@ -43,5 +43,9 @@
   "browserslist": [
     "> 0.2%",
     "not dead"
-  ]
+  ],
+  "description": "webpack template starter for react.js",
+  "repository": "git@github.com:noohle/webpack-react-starter.git",
+  "author": "armdong <armdong@163.com>",
+  "private": true
 }

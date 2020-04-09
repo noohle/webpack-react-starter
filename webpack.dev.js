@@ -8,6 +8,9 @@ module.exports = merge(common, {
     contentBase: './dist',
     open: true,
     port: 3000,
-    hot: true
+    hot: true,
+    historyApiFallback: {
+      index: '/assets/'
+    }
   }
 });
